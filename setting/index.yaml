@@ -1,17 +1,45 @@
 site:
-  name: 'Yasaman Moussavi'
-  site: 'https://yasi-portfolio.vercel.app'
-  base: '/'
+#  name: 'Yasaman Moussavi'
+#  site: 'https://yasi-portfolio.vercel.app'
+#  base: '/'
 
 metadata:
   title:
     default: 'Yasaman Moussavi'
     template: '%s — AstroWind'
   description: "This is Yasaman Moussavi's personal website"
-
-social:
   instagram:
     handle: '@yasi_moussavi'
+    ariaLabel: 'Instagram'
+    icon: 'tabler:brand-instagram'
+  openGraph:
+    site_name: "Yasaman Moussavi's Website"
+    images:
+      - url: '@/assets/images/default.png'
+        width: 1200
+        height: 628
+    type: website
 
-Homepage:
+homepage:
   description: "I close my eyes Searching, to make sense of the space; Inside and out The dark but warm container of silence embraces me. I sink inside, like a snail in its shell And melt. <br> Quietly, softly I sink inside..."
+
+header:
+  navigation:
+    -
+      text: Works
+      links:
+        -
+          text: Printmaking
+          slug: "/works/printmakings"
+        -
+          text: Papermaking
+          slug: "/works/papermaking"
+        -
+          text: Painting
+          slug: "/works/painting"
+    -
+      text: About
+      slug: "/about"
+
+footer:
+  copyright: "© Copyright {year} Yasaman Moussavi. All Rights Reserved"
