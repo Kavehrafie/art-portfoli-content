@@ -6,7 +6,7 @@ site:
 metadata:
   title:
     default: 'Yasaman Moussavi'
-    template: '%s — AstroWind'
+    template: '%s — Official'
   description: "This is Yasaman Moussavi's personal website"
   instagram:
     handle: '@yasi_moussavi'
@@ -30,16 +30,23 @@ header:
       links:
         -
           text: Printmaking
-          slug: "/works/printmakings"
+          slug: "/works/printmaking"
         -
           text: Papermaking
           slug: "/works/papermaking"
         -
-          text: Painting
-          slug: "/works/painting"
+          text: Site-specific Installations
+          slug: "/works/site-specific"
     -
-      text: About
+      text: Reviews and Interviews
+      links:
+        -
+          text: Interview by Rafael Zen
+          slug: "/reviews/rafael-zen"
+    -
+      text: About & Contact
       slug: "/about"
 
+
 footer:
-  copyright: "© Copyright {year} Yasaman Moussavi. All Rights Reserved"
+  copyright: "© Copyright %s Yasaman Moussavi. All Rights Reserved"
