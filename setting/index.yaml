@@ -25,6 +25,9 @@ homepage:
 
 header:
   navigation:
+    - 
+      text: Home
+      slug: "/"
     -
       text: Works
       links:
